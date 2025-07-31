@@ -1,0 +1,167 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #0d6efd !important;
+  border-bottom: 2px solid #0d6efd;
+  transition: 0.3s ease;
+}
+
+.about-page {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.about-page h2 {
+  font-size: 2.5rem;
+  color: #343a40;
+}
+
+.about-page p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* Services  */
+/* ServicesPage.css */
+.service-card {
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  border-radius: 1rem;
+  background: #fff;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.1);
+}
+
+.icon-container {
+  background-color: #e8f0ff;
+  width: 70px;
+  height: 70px;
+  margin: 0 auto;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Popular  */
+.image-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.image-card img {
+  transition: transform 0.4s ease;
+}
+
+.image-card:hover img {
+  transform: scale(1.05);
+}
+
+.image-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 0.75rem;
+  font-weight: 500;
+  text-align: center;
+  font-size: 1rem;
+}
+
+/* About us sections  */
+img {
+  transition: transform 0.5s ease;
+}
+
+img:hover {
+  transform: scale(1.03);
+}
+
+
+/* For background image */
+.background-section {
+  background-image: url('/images-1.jpg');
+  /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  /* Full screen height */
+  position: relative;
+}
+
+.overlay-content {
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Optional dark overlay */
+  border-radius: 12px;
+}
+
+
+/* This is for background image for about us  */
+.background-image {
+  background-image: url('/img1.webp');
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  position: relative;
+}
+
+.overlay-content {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  max-width: 600px;
+}
+
+/* This is for contact */
+.background-image-contact {
+  background-image: url('/img2.webp');
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  position: relative;
+}
+
+.overlay-content-contact {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  max-width: 600px;
+}
+
+/* THis is for product */
+.background-image-product {
+  background-image: url('/img2.webp');
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  position: relative;
+}
+
+.overlay-content-product {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  max-width: 600px;
+}
+
+/* This is for services */
+
+.background-image-services {
+  background-image: url('/img-3.webp');
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  position: relative;
+}
+
+.overlay-content-services {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  max-width: 600px;
+}
