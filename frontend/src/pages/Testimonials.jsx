@@ -34,7 +34,7 @@ const Testimonials = () => {
   return (
     <div className="container py-5" style={{ backgroundColor: '#f8f9fa' }}>
       <h2 className="text-center fw-bold " data-aos="fade-up">What Our Clients Say</h2>
-      <p className="text-center mb-5">sad guru art and craft is a good company</p>
+      <p className="text-center mb-5">Utkarsh Clothing is a good company</p>
       <div className="row g-4">
         {testimonials.map((testimonial, idx) => (
           <div
