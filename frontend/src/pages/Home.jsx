@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import about_img from '../assets/baner_2.avif';
+import about_img from '../assets/img_16.jpeg';
 import image_2 from '/images-2.jpg';
 import Product from './Product';
 import Contact from './Contact';

@@ -5,13 +5,33 @@ import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 import './Common.css';
 
 import { ProductPreviewModal, EnquiryModal } from '../components/modal/Modal';
-
 import img_1 from '../assets/crop-top.jpg';
 import img_2 from '../assets/women-brown.webp';
 import img_3 from '../assets/lower.webp';
 import img_4 from '../assets/ledis-top.webp';
 import img_5 from '../assets/ladies-maroon-red.webp';
 import img_6 from '../assets/girls-blue-printed-cotton.webp';
+import img_7 from '../assets/img_1.jpeg';
+import img_8 from '../assets/img_2.jpeg';
+import img_9 from '../assets/img_3.jpeg';
+import img_10 from '../assets/img_4.jpeg';
+import img_11 from '../assets/img_6.jpeg';
+import img_12 from '../assets/img_7.jpeg';
+import img_13 from '../assets/img_8.jpeg';
+import img_14 from '../assets/img_9.jpeg';
+import img_15 from '../assets/img_10.jpeg';
+import img_16 from '../assets/img_11.jpeg';
+import img_17 from '../assets/img_12.jpeg';
+import img_18 from '../assets/img_13.jpeg';
+import img_19 from '../assets/img_14.jpeg';
+import img_20 from '../assets/img_16.jpeg';
+import img_21 from '../assets/img_17.jpeg';
+import img_22 from '../assets/img_18.jpeg';
+import img_23 from '../assets/img_19.jpeg';
+import img_24 from '../assets/img_20.jpeg';
+import img_25 from '../assets/img_22.jpeg';
+import img_26 from '../assets/img_23.jpeg';
+import img_27 from '../assets/img_24.jpeg';
 
 const productData = [
     {
@@ -35,23 +55,148 @@ const productData = [
     {
         id: 4,
         title: "Stylish Ladies Top",
-        description: "Modern design ladies' top, perfect for pairing with jeans or skirts. Lightweight and fashion-forward.",
+        description: "Modern design top, perfect for pairing with jeans or skirts. Lightweight and fashion-forward.",
         img: img_4
     },
     {
         id: 5,
         title: "Maroon-Red Ethnic Wear",
-        description: "Graceful maroon-red attire designed for festive and traditional events. Made from quality fabric with elegant detailing.",
+        description: "Graceful ethnic wear designed for festive and traditional events. Made from quality fabric with elegant detailing.",
         img: img_5
     },
     {
         id: 6,
         title: "Blue Printed Cotton Dress",
-        description: "Breathable and vibrant blue printed cotton dress, great for summer wear. Light, comfortable, and stylish.",
+        description: "Vibrant blue cotton dress, great for summer wear. Light, comfortable, and stylish.",
         img: img_6
+    },
+    {
+        id: 7,
+        title: "Casual Beige Top",
+        description: "Minimalist beige top, a versatile pick for any casual day out.",
+        img: img_7
+    },
+    {
+        id: 8,
+        title: "Sleeveless Summer Dress",
+        description: "Light and breezy dress perfect for summer strolls and beach days.",
+        img: img_8
+    },
+    {
+        id: 9,
+        title: "Chic Polka Dot Skirt",
+        description: "Flared polka dot skirt that brings a vintage vibe to modern fashion.",
+        img: img_9
+    },
+    {
+        id: 10,
+        title: "Lavender Lounge Set",
+        description: "Relax in style with this lavender two-piece lounge set, soft and stretchable.",
+        img: img_10
+    },
+    {
+        id: 11,
+        title: "Boho Floral Maxi",
+        description: "Maxi dress with bohemian floral prints, ideal for daytime parties.",
+        img: img_11
+    },
+    {
+        id: 12,
+        title: "Denim Dungarees",
+        description: "Classic blue denim dungarees with a modern twist. Great for casual days.",
+        img: img_12
+    },
+    {
+        id: 13,
+        title: "Pink Sleeveless Blouse",
+        description: "Elegant pink blouse with a sleeveless cut and soft fabric.",
+        img: img_13
+    },
+    {
+        id: 14,
+        title: "Bold Red Top",
+        description: "Make a statement with this vibrant red top, perfect for evening outings.",
+        img: img_14
+    },
+    {
+        id: 15,
+        title: "Casual Striped Shirt",
+        description: "Breathable striped shirt for relaxed days. Easy to style and wear.",
+        img: img_15
+    },
+    {
+        id: 16,
+        title: "Neutral Toned Midi Dress",
+        description: "Earth-toned midi dress suitable for formal and semi-formal occasions.",
+        img: img_16
+    },
+    {
+        id: 17,
+        title: "Monochrome Blazer Set",
+        description: "Tailored monochrome blazer and pants set for a confident work look.",
+        img: img_17
+    },
+    {
+        id: 18,
+        title: "Black Fit & Flare Dress",
+        description: "Timeless black dress with a flattering fit-and-flare silhouette.",
+        img: img_18
+    },
+    {
+        id: 19,
+        title: "Trendy Tie-Dye Tee",
+        description: "Colorful tie-dye t-shirt, soft and breathable. Adds a pop to any outfit.",
+        img: img_19
+    },
+    {
+        id: 20,
+        title: "Oversized Graphic Tee",
+        description: "Bold graphic print on a comfy oversized fit. Streetwear essential.",
+        img: img_20
+    },
+    {
+        id: 21,
+        title: "Printed Casual Jumpsuit",
+        description: "One-piece printed jumpsuit perfect for relaxed daywear.",
+        img: img_21
+    },
+    {
+        id: 22,
+        title: "Pastel Skater Skirt",
+        description: "Feminine pastel skater skirt that flows with movement.",
+        img: img_22
+    },
+    {
+        id: 23,
+        title: "Embroidered Kurti",
+        description: "Traditional kurti with detailed embroidery. A festive favorite.",
+        img: img_23
+    },
+    {
+        id: 24,
+        title: "Elegant White Blouse",
+        description: "Chic white blouse that’s a wardrobe staple. Pairs with anything.",
+        img: img_24
+    },
+    {
+        id: 25,
+        title: "Floral Printed Wrap Dress",
+        description: "Soft wrap dress with an all-over floral print, perfect for brunch.",
+        img: img_25
+    },
+    {
+        id: 26,
+        title: "Modern Co-Ord Set",
+        description: "Stylish matching top and bottom set for trend-forward looks.",
+        img: img_26
+    },
+    {
+        id: 27,
+        title: "Classic Fit Trousers",
+        description: "Tailored trousers that go from work to weekend effortlessly.",
+        img: img_27
     }
 ];
-
 
 const Product = () => {
 
@@ -151,3 +296,5 @@ const Product = () => {
 };
 
 export default Product;
+
+

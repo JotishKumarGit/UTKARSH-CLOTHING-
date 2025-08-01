@@ -1,7 +1,7 @@
 import React from 'react';
-import img_1 from '../assets/baner_1.jpg';
-import img_2 from '../assets/baner_2.avif';
-import img_3 from '../assets/baner_3.avif';
+import img_1 from '../assets/img-21.jpeg';
+import img_2 from '../assets/img_14.jpeg';
+import img_3 from '../assets/img_25.jpeg';
 
 
 const BannerPage = () => {
@@ -17,7 +17,7 @@ const images = [
         <div className="carousel-inner">
           {images.map((image, index) => (
             <div className={`carousel-item ${index === 0 ? 'active' : ''}`} key={index}>
-              <img className="d-block w-100" src={image.src} alt={image.alt} style={{ height: '600px', objectFit: 'cover' }} />
+              <img className="d-block w-100" src={image.src} alt={image.alt}  style={{   height: '600px', width: '100%', objectFit: 'cover', display: 'block' }} />
               <div className="carousel-caption d-none d-md-block">
                 <h3 className='text-success'>{image.alt}</h3>
       {/* <p className='text-white display-5 fw-bold'>
