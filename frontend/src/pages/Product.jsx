@@ -12,9 +12,7 @@ import img_4 from '../assets/ledis-top.webp';
 import img_5 from '../assets/ladies-maroon-red.webp';
 import img_6 from '../assets/girls-blue-printed-cotton.webp';
 import img_7 from '../assets/img_1.jpeg';
-import img_8 from '../assets/img_2.jpeg';
 import img_9 from '../assets/img_3.jpeg';
-import img_10 from '../assets/img_4.jpeg';
 import img_11 from '../assets/img_6.jpeg';
 import img_12 from '../assets/img_7.jpeg';
 import img_13 from '../assets/img_8.jpeg';
@@ -32,6 +30,7 @@ import img_24 from '../assets/img_20.jpeg';
 import img_25 from '../assets/img_22.jpeg';
 import img_26 from '../assets/img_23.jpeg';
 import img_27 from '../assets/img_24.jpeg';
+import img from '../assets/img-21.jpeg'
 
 const productData = [
     {
@@ -77,22 +76,10 @@ const productData = [
         img: img_7
     },
     {
-        id: 8,
-        title: "Sleeveless Summer Dress",
-        description: "Light and breezy dress perfect for summer strolls and beach days.",
-        img: img_8
-    },
-    {
         id: 9,
-        title: "Chic Polka Dot Skirt",
+        title: "Black net crop top",
         description: "Flared polka dot skirt that brings a vintage vibe to modern fashion.",
         img: img_9
-    },
-    {
-        id: 10,
-        title: "Lavender Lounge Set",
-        description: "Relax in style with this lavender two-piece lounge set, soft and stretchable.",
-        img: img_10
     },
     {
         id: 11,
@@ -101,44 +88,14 @@ const productData = [
         img: img_11
     },
     {
-        id: 12,
-        title: "Denim Dungarees",
-        description: "Classic blue denim dungarees with a modern twist. Great for casual days.",
-        img: img_12
-    },
-    {
         id: 13,
-        title: "Pink Sleeveless Blouse",
+        title: "Black net red top",
         description: "Elegant pink blouse with a sleeveless cut and soft fabric.",
         img: img_13
     },
     {
-        id: 14,
-        title: "Bold Red Top",
-        description: "Make a statement with this vibrant red top, perfect for evening outings.",
-        img: img_14
-    },
-    {
-        id: 15,
-        title: "Casual Striped Shirt",
-        description: "Breathable striped shirt for relaxed days. Easy to style and wear.",
-        img: img_15
-    },
-    {
-        id: 16,
-        title: "Neutral Toned Midi Dress",
-        description: "Earth-toned midi dress suitable for formal and semi-formal occasions.",
-        img: img_16
-    },
-    {
-        id: 17,
-        title: "Monochrome Blazer Set",
-        description: "Tailored monochrome blazer and pants set for a confident work look.",
-        img: img_17
-    },
-    {
         id: 18,
-        title: "Black Fit & Flare Dress",
+        title: " Flare Dress",
         description: "Timeless black dress with a flattering fit-and-flare silhouette.",
         img: img_18
     },
@@ -156,21 +113,9 @@ const productData = [
     },
     {
         id: 21,
-        title: "Printed Casual Jumpsuit",
-        description: "One-piece printed jumpsuit perfect for relaxed daywear.",
-        img: img_21
-    },
-    {
-        id: 22,
-        title: "Pastel Skater Skirt",
-        description: "Feminine pastel skater skirt that flows with movement.",
-        img: img_22
-    },
-    {
-        id: 23,
-        title: "Embroidered Kurti",
-        description: "Traditional kurti with detailed embroidery. A festive favorite.",
-        img: img_23
+        title: "Dori net crop top",
+        description: "Bold graphic print on a comfy oversized fit. Streetwear essential.",
+        img: img
     },
     {
         id: 24,
@@ -186,7 +131,7 @@ const productData = [
     },
     {
         id: 26,
-        title: "Modern Co-Ord Set",
+        title: "Modern Crop top",
         description: "Stylish matching top and bottom set for trend-forward looks.",
         img: img_26
     },
